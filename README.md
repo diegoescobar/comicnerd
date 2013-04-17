@@ -1,4 +1,4 @@
-comicnerd
+Comicnerd
 =========
 
-weekly comic notifications and management
+Weekly comic release notifications and collection management
