@@ -20,9 +20,9 @@
         	<p class="field-description">Profile Name</p>
         	<input type="text" name="" class="field" value="Enabled"/>
             <p class="field-description">Profile Description</p>
-            <input type="text" name="quick-tags" class="field" value="A short description..."/>
+            <input type="text" name="quick-tags" class="field" placeholder="A short description..."/>
             <p class="field-description">Profile Email Address</p>
-            <input type="text" name="quick-tags" class="field" value="mail@domain.com"/>
+            <input type="text" name="quick-tags" class="field" placeholder="mail@domain.com"/>
             <p class="field-description demo">You can create however many fields you require! These are just for a demo!</p>
         </div>
 	</div>
