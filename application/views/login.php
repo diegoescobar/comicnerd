@@ -1,6 +1,6 @@
 <div class="landing-page">
 	<p class="center-text landing-logo shadow">
-    	<img class="replace-2x" width="163" src="images/logo-home.png" alt="img">
+    	<img class="replace-2x" width="163" src="<?= base_url('images/logo-home.png') ?>" alt="img">
         <br/>Just an awesome mobile admin template
     </p>
 
@@ -8,7 +8,7 @@
 			<input type="text" name="username" id="username" value="Username" class="text-input" />
             <input type="password" name="password" id="password" value="Username" class="text-input" />
             <a class="checkbox login-check" href="#">remember me</a>
-            <span class="buttonBig"><a href="nav.php" class="buttonBigYellow">Login</a></span>        
+            <span class="buttonBig"><a href="<?php base_url() ?>" class="buttonBigYellow">Login</a></span>        
         <div class="clear"></div>
     </div>
     <div class="login-box-deco1"></div>

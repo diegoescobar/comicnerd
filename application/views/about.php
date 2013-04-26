@@ -1,6 +1,6 @@
     <div class="clear"></div>
 	<div class="decoration"></div>
-    <p class="breadcrumb"><a href="index.php">Login</a><em class="bdiv"></em> <a href="nav.php">Home</a> <em class="bdiv"></em>About Page </p>
+    <p class="breadcrumb"><a href="<?= base_url('login'); ?>">Login</a><em class="bdiv"></em> <a href="<?= base_url(); ?>">Home</a> <em class="bdiv"></em>About Page </p>
     <div class="decoration"></div>
     
 
@@ -12,8 +12,8 @@
         </div>
         <div class="content-box-container">
         	<p class="full-width">This section is made to show the difference between retina and no retine, hence, it can be viewed only from Apple Devices!</p>
-            <img width="137" src="images/retina/128.png" alt="img">
-            <img class="replace-2x" width="137" src="images/retina/128.png" alt="img">
+            <img width="137" src="<?= base_url('images/retina/128.png'); ?>" alt="img">
+            <img class="replace-2x" width="137" src="<?= base_url('images/retina/128.png'); ?>" alt="img">
         </div>
     </div>
     
@@ -119,22 +119,22 @@
     
     <div class="notification-box-blue">
         <a href="#" class="notification-quit-blue">x</a>
-        <img class="replace-2x notification-icon" width="16" src="images/lists/list-info.png" alt="">
+        <img class="replace-2x notification-icon" width="16" src="<?= base_url('images/lists/list-info.png') ?>" alt="">
         <p class="notification-text">Traffic has increased by 20%</p>
     </div>
     <div class="notification-box-yellow">
         <a href="#" class="notification-quit-yellow">x</a>
-        <img class="replace-2x notification-icon" width="16" src="images/lists/list-warning.png" alt="">
+        <img class="replace-2x notification-icon" width="16" src="<?= base_url('images/lists/list-warning.png') ?>" alt="">
         <p class="notification-text">These posts must be reviewed!</p>
     </div> 
     <div class="notification-box-red last-item">
         <a href="#" class="notification-quit-red">x</a>
-        <img class="replace-2x notification-icon" width="16" src="images/lists/list-cross.png" alt="">
+        <img class="replace-2x notification-icon" width="16" src="<?= base_url('images/lists/list-cross.png') ?>" alt="">
         <p class="notification-text">Outstanding post! Please review!</p>
     </div>
     <div class="notification-box-green">
     	<a href="#" class="notification-quit-green">x</a>
-        <img class="replace-2x notification-icon" width="16" src="images/lists/list-tick.png" alt="">
+        <img class="replace-2x notification-icon" width="16" src="<?= base_url('images/lists/list-tick.png') ?>" alt="">
         <p class="notification-text">You got feedback!</p>
     </div> 
     

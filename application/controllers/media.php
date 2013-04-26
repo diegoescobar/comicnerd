@@ -45,6 +45,21 @@ class media extends CI_Controller {
 		$this->_loader('navmenu', 'media', $data);
 	}
 
+
+	public function posts(){
+		$data = $this->data;
+		$data['js_files'] = array();
+		$data['title'] = 'Comicnerd - Index';
+		$this->_loader('navmenu', 'posts', $data);
+	}
+
+
+	public function comments(){
+		$data = $this->data;
+		$data['js_files'] = array();
+		$data['title'] = 'Comicnerd - Index';
+		$this->_loader('navmenu', 'posts', $data);
+	}
 	public function updates(){
 		//if notifications checked
 		$current = date("Y-m-d H:i:s");

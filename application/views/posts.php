@@ -1,6 +1,6 @@
     <div class="clear"></div>
 	<div class="decoration"></div>
-    <p class="breadcrumb"><a href="index.php">Login</a><em class="bdiv"></em> <a href="nav.php">Home</a> <em class="bdiv"></em>Posts Page </p>
+    <p class="breadcrumb"><a href="<?= base_url('login'); ?>">Login</a><em class="bdiv"></em> <a href="<?= base_url(); ?>">Home</a> <em class="bdiv"></em>Posts Page </p>
     <div class="decoration"></div>
     
      <div class="content-box">
@@ -15,10 +15,10 @@
                 <a href="#" class="control-but italic-control shadow">I</a>
                 <a href="#" class="control-but underline-control shadow">u</a>
                 <a href="#" class="control-but strike-control shadow">ABC</a>
-                <a href="#" class="control-but list-control shadow"><img src="images/ui/list.png" alt="img"></a>
-                <a href="#" class="control-but list-control shadow"><img src="images/ui/left.png" alt="img"></a>
-                <a href="#" class="control-but list-control shadow"><img src="images/ui/center.png" alt="img"></a>
-                <a href="#" class="control-but list-control shadow"><img src="images/ui/right.png" alt="img"></a>
+                <a href="#" class="control-but list-control shadow"><img src="<?= base_url('images/ui/list.png') ?>" alt="img"></a>
+                <a href="#" class="control-but list-control shadow"><img src="<?= base_url('images/ui/left.png') ?>" alt="img"></a>
+                <a href="#" class="control-but list-control shadow"><img src="<?= base_url('images/ui/center.png') ?>" alt="img"></a>
+                <a href="#" class="control-but list-control shadow"><img src="<?= base_url('images/ui/right.png') ?>" alt="img"></a>
             </div>
             <textarea name="quick-content" class="big-field">Content</textarea>
             <input type="text" name="quick-tags" class="field" value="Tags"/>

@@ -1,6 +1,6 @@
     <div class="clear"></div>
 	<div class="decoration"></div>
-    <p class="breadcrumb"><a href="index.php">Login</a><em class="bdiv"></em> <a href="nav.php">Home</a> <em class="bdiv"></em>Settings Page</p>
+    <p class="breadcrumb"><a href="<?= base_url('login'); ?>">Login</a><em class="bdiv"></em> <a href="<?= base_url(); ?>">Home</a> <em class="bdiv"></em>Settings Page</p>
     <div class="decoration"></div>
     
     <div class="content-box">

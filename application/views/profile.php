@@ -1,11 +1,11 @@
     <div class="clear"></div>
 	<div class="decoration"></div>
-    <p class="breadcrumb"><a href="index.php">Login</a><em class="bdiv"></em> <a href="nav.php">Home</a> <em class="bdiv"></em>Profile Page </p>
+    <p class="breadcrumb"><a href="<?= base_url('login'); ?>">Login</a><em class="bdiv"></em> <a href="<?= base_url(); ?>">Home</a> <em class="bdiv"></em>Profile Page </p>
     <div class="decoration"></div>
     
     
 	<div class="profile-box">
-    	<img class="replace-2x profile-image" width="80" height="80" src="images/thumbnail.png" alt="img">
+    	<img class="replace-2x profile-image" width="80" height="80" src="<?= base_url('images/thumbnail.png') ?>" alt="img">
     	<p class="profile-title">Enabled</p>
         <p class="profile-bio">A short description you want to add here about yourself.</p>
         <p class="profile-mail">Email: <a href="#">mail@domain.com</a></p>
